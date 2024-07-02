@@ -20,6 +20,12 @@ git clone https://github.com/your-username/tasker-system.git
 cd tasker-system
 npm install
 ```
+
+#### Configuration
+Create a .env file in the project root directory.
+Add the following environment variable to the .env file, replacing <YOUR_ACCESS_TOKEN> with your actual Github access token:
+GITHUB_ACCESS_TOKEN=<YOUR_ACCESS_TOKEN>
+
 #### Usage
 1. Running the Service:
 Start the service in production mode:
